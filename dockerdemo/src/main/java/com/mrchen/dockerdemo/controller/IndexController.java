@@ -21,6 +21,7 @@ public class IndexController {
     @GetMapping("/test")
     public @ResponseBody int test(String test ){
         int a = 0 ;
+        int b = 1;
         return a ;
     }
 
