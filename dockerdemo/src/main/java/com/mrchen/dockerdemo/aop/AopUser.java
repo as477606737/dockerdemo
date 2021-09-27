@@ -21,7 +21,7 @@ import org.springframework.stereotype.Component;
 public class AopUser {
 
     //申明一个切点 里面是excution表达式
-    @Pointcut("execution(* com.mrchen.dockerdemo.controller.*.*(..))")
+    @Pointcut("execution(* com.mrchen.dockerdemo.controller.IndexController.*(..))")
     private void aopTest() {
     }
 
